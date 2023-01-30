@@ -798,6 +798,8 @@ h4 {
 .btn-atomic-tangerine {
     background: #f57e47;
     color: #FFFFFF!important;
+    text-shadow: 1px 1px 1px black !important;
+    
 }
 
 .btn-atomic-tangerine:hover {
@@ -1094,4 +1096,19 @@ h4 {
     color: transparent;
     position: absolute;
     font-size: 1px;
+}
+
+.contact-footer{
+    margin-top: 35px;
+    margin-bottom: -35px;
+}
+
+/* PAGE */
+
+.color-important{
+    color: #e3c9bc !important;
+}
+
+.size-font-14{
+    font-size: 14px;
 }
