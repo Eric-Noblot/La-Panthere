@@ -1,7 +1,7 @@
 *:focus{
-    border: 2px solid black !important;
-    opacity: 0.8 !important;
-
+    border-bottom: 3px solid rgb(234, 158, 81) !important;
+    opacity: 0.9 !important;
+    text-shadow: 5px 5px 20px white;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;    
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -297,6 +297,7 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+
 }
 
 .navbar-brand {
@@ -343,7 +344,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-    border: 4px dotted #F3976C;
+    border-bottom: 3px solid rgb(234, 158, 81);
 }
 
 .navbar-toggle {
@@ -787,24 +788,24 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #dc703e;
+    background-color: #a73d0c;
 }
 
 .tc-white {
-    color: #fbac87!important;
+    color: #f9bea3!important;
     text-shadow: 1px 1px black;
 
 }
 
 .btn-atomic-tangerine {
-    background: #f57e47;
+    background: #a73d0c;
     color: #FFFFFF!important;
     text-shadow: 1px 1px 1px black !important;
     
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #a73d0c!important;
     color: #FFFFFF!important;
 }
 
@@ -817,12 +818,12 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color:  #a73d0c!important;
 }
 
 .ltc-atomic-tangerine:hover {
     /*color: #c27956!important;*/
-    color: #F3976C!important;
+    color: #a73d0c!important;
 }
 
 .icon-dark-slate-blue {
@@ -1095,12 +1096,6 @@ h4 {
     margin-top: 20px;
 }
 
-.icon-transparent{
-    color: transparent;
-    position: absolute;
-    font-size: 1px;
-}
-
 .contact-footer{
     margin-top: 35px;
     margin-bottom: -35px;
@@ -1109,9 +1104,14 @@ h4 {
 /* PAGE */
 
 .color-important{
-    color: #e3c9bc !important;
+    color: #f5b290 !important;
 }
 
 .size-font-14{
     font-size: 14px;
+}
+
+.light-text{
+    color: rgb(253, 215, 171) !important;
+    font-size: 1.8em; 
 }
